@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% load static %}
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Jun's Website</title>
+        <link rel="icon" type="image/x-icon" href="{% static 'assets/img/favicon.ico' %}" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="{% static 'https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700' %}" rel="stylesheet" type="text/css" />
+        <link href="{% static 'https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i' %}" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{% static 'css/styles.css' %}" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Jun Yeop Kim</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{% static 'assets/img/profile.jpg' %}" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <style type="text/css">
+            .social-account-links a:link { text-decoration: none }
+        </style>
+
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Jun Yeop
+                        <span class="text-primary">Kim</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        Davis Ave · Greenwich, CT 06830 · (470) 309-3061 ·
+                        <a href="mailto:name@email.com">junyeopkim0205@email.com</a>
+                    </div>
+                    <p class="lead mb-5">I am a junior Computer Science student passionate about system design, cybersecurity, and software engineering. I am also interested
+                         in Big Data technology, AI, and Machine Learning :)</p>
+                    <div class="social-accounts">
+                        <div class="social-account-links"><a href="https://github.com/jkim3663">GitHub</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.linkedin.com/in/junyeopkim/">LinkedIn</a>
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://junyeopkim.com/">Jun's Tutoring</a></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Georgia Institute of Technology</h3>
+                            <div class="subheading mb-3">Bachelor of Science in Computer Science</div>
+                            <div><b>Threads</b> - System Architecture and Intelligence</div>
+                            <p><b>GPA</b> 3.93 / 4.00 - Dean's List
+                                <br><b>Faculty Honors</b> - Fall 2020, Spring 2021, Fall 2021
+                            </p>
+                            <div><b>Coursework</b></div>
+                            <p>CS - Object Oriented Programming, Data Structure and Algorithm, Computer Organization & Programming
+                                <br>Math - Linear Algebra, Multivariable Calculus, Probability and Statistics, Combinatorics
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2020 - May 2024</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            C/C++
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Java
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Python
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            HTML/CSS <br><br>
+                        </li>
+                    </ul>
+                    <div class="subheading mb-3">Frameworks</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Docker
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Django
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            JUnit <br><br>
+                        </li>
+                    </ul>
+                    <div class="subheading mb-3">Developer Tools</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Git, VS Code, Visual Studio, IntelliJ, Eclipse, Python Idle, Slack, Jira <br><br>
+                        </li>
+                    </ul>
+                    <div class="subheading mb-3">Operation System</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Mac
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Windows
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Projects-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Immanuel</h3>
+                            <div class="subheading mb-3">Python, Django, Open Ai, Bootstrap, Git</div>
+                            <p>- Co-builder of a GitHub organization that utilizes Django and Open Ai for web application
+                                <br>- Implemented a python module to sort text file via labels
+                                <br>- Optimized peer’s modules for time complexity and debugged to correct errors
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">July 2021 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Tutoring for Underrepresented</h3>
+                            <div class="subheading mb-3">Python, Django, Bootstrap, Git</div>
+                            <p>- Launched a website using Django as a framework to offer tutoring service to underrepresented minorities but not restricted
+                                <br>- Harnessed the Django category, post, and comment models to manage the website efficiently
+                                <br>- Implemented the front-end framework using Bootstrap
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">January 2022 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">JUnit Test</h3>
+                            <div class="subheading mb-3">Java, JUnit</div>
+                            <p>- Developed and shared 8 JUnit tests for the Data Structure and Algorithm course
+                                <br>- The tests include Binary Search Tree, AVL Tree, Hashmap, Sorting, Pattern Matching, and Graph algorithms
+                                <br>- Made GitHub repositories for each test to enable enhanced access
+                                <br>- Collaborated with other students to find more edge cases and achieve higher coverage
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">May 2021 - August 2021</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Color Game</h3>
+                            <div class="subheading mb-3">Java, JavaFX, GUI</div>
+                            <p>- Developed a JavaFX application for a mini game about finding color matches from random patterns
+                                <br>- Harnessed concepts such as node, stage, scene, UI Control
+                                <br>- Applied event-driven programming for better user interaction
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">April 2021 - May 2021</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Physics Undergraduate Teaching Assistant</h3>
+                            <div class="subheading mb-3">Georgia Institute of Technology</div>
+                            <p>- Assisted students in the Electricity and Magnetism course during lab sections, group problem solving, and held office hours
+                                <br>- Supported the Graduate TA for better communication and interaction with the students
+                                <br>- Checked student participation and tested student’s improvement and weakness for every lab and provided detailed
+                                feedback
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2021 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Teaching Assistant</h3>
+                            <div class="subheading mb-3">Top Class Academy</div>
+                            <p>- Reviewed prototype textbooks and edited context, grammar, and format errors
+                                <br>- Compiled and edited education videos related to English critical thinking and uploaded on YouTube
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">May 2020 – July 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Volunteer Member</h3>
+                            <div class="subheading mb-3">Compassion</div>
+                            <p>- Raised funds for destitute children worldwide, particularly Africa
+                                <br>- Organized monthly events to advertise the organization
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2017 - 2020</span></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="{% static 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js' %}"></script>
+        <!-- Core theme JS-->
+        <script src="{% static 'js/scripts.js' %}"></script>
+    </body>
+</html>
